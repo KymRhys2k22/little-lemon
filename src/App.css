@@ -1,15 +1,13 @@
 main {
   display: flex;
-  justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100vw;
-  height: 200vh;
   background-color: lightseagreen;
 }
 
 header {
   display: flex;
-
   padding: 30px 292px 39px 292px;
 }
 
@@ -27,11 +25,7 @@ ul {
   justify-content: space-between;
 }
 
-a{
+a {
   text-decoration: none;
-  color: black; 
-  
+  color: black;
 }
-
-
-
